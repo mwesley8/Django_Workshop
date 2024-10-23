@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\milky\\practice_django\\Django_Framework_TDD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{181037CB-27E3-4DAE-BC28-C2DB6E0DE8F8}|Django_Framework_TDD.pyproj|C:\\Users\\milky\\practice_django\\Django_Framework_TDD\\functional_test.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{181037CB-27E3-4DAE-BC28-C2DB6E0DE8F8}|Django_Framework_TDD.pyproj|solutionrelative:functional_test.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181037CB-27E3-4DAE-BC28-C2DB6E0DE8F8}|Django_Framework_TDD.pyproj|C:\\Users\\milky\\practice_django\\Django_Framework_TDD\\Django_Framework_TDD.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{181037CB-27E3-4DAE-BC28-C2DB6E0DE8F8}|Django_Framework_TDD.pyproj|solutionrelative:Django_Framework_TDD.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "functional_test.py",
+              "DocumentMoniker": "C:\\Users\\milky\\practice_django\\Django_Framework_TDD\\functional_test.py",
+              "RelativeDocumentMoniker": "functional_test.py",
+              "ToolTip": "C:\\Users\\milky\\practice_django\\Django_Framework_TDD\\functional_test.py*",
+              "RelativeToolTip": "functional_test.py*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-10-23T18:02:05.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Django_Framework_TDD.py",
+              "DocumentMoniker": "C:\\Users\\milky\\practice_django\\Django_Framework_TDD\\Django_Framework_TDD.py",
+              "RelativeDocumentMoniker": "Django_Framework_TDD.py",
+              "ToolTip": "C:\\Users\\milky\\practice_django\\Django_Framework_TDD\\Django_Framework_TDD.py",
+              "RelativeToolTip": "Django_Framework_TDD.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-10-23T17:39:48.96Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
