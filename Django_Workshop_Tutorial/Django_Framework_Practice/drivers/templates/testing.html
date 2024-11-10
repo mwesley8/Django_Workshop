@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>
+   Affinity Testing Page
+</title>
+
+<body>
+    {% comment %} Scoped declared variable (test) {% endcomment %}
+    {% with test='truck' %}  
+
+    {% comment %} Variable (trucks) declared in view {% endcomment %}
+    {% for x in trucks %}
+        <h1>{{ x }}</h1>
+    {% endfor %}
+
+    <p></p>
+    <p>Choose a {{test}} {{variable}}!</p>
+
+    {% comment %} Variable (drivers) declared in view {% endcomment %}
+    {% for x in Drivers %}
+        {% if x.firstName != "Maurice" %}
+            <p>{{x.firstName}} needs a new {{test}}.</p>
+        {% endif %}
+
+    {% endfor %}
+    {% endwith %}
+
+    {% comment %} {% include 'testing1.html' with Today=Today Drivers=Drivers %} {% endcomment %}
+
+</body>
+</html>

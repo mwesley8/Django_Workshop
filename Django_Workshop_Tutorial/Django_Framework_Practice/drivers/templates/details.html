@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+<html>
+
+{%block title%}
+    Driver info on {{myDriver.firstName}} {{myDriver.lastName}}
+{%endblock%}
+
+<body>
+{%block content%}
+    <h1>{{myDriver.firstName}} {{myDriver.lastName}}</h1>
+    
+    <p>Phone: {{myDriver.phoneNumber}}</p>
+    <p>Employee Since: {{myDriver.hireDate}}</p>
+
+    <p>Back to <a href='/drivers'>Drivers</a></p>
+{%endblock%}
+</body>
+</html>

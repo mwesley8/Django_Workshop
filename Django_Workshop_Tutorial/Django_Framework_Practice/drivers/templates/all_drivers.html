@@ -1,0 +1,33 @@
+{% extends "master.html" %}
+
+<html>
+    {%block title%}
+    
+        Affinity Trucking - List Of Current Drivers
+    
+    {%endblock%}
+    <body>
+        {%block content%}
+        <p><a href='/'>HOME</a></p>
+        <h1>Drivers</h1>
+        <table border='2'>
+            <tr>
+                <th>ID</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>TruckNumber</th>
+            </tr>
+            {%for x in myDrivers%}
+            <tr>    
+                <td><a href='drivers/details/{{x.id}}'>{{x.id}}</a></td>
+                <td>{{x.firstName}}</td>
+                <td>{{x.lastName}}</td>
+                <td>{{x.truckNumber}}</td>
+            </tr>
+            {%endfor%}
+            
+        </table>
+        <p>Last updated {{Today}}</p>
+        {%endblock%}
+    </body>
+</html>
